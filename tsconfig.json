@@ -1,0 +1,27 @@
+// {
+//   "compilerOptions": {
+//     "outDir": "./src",
+//     "baseUrl": "./",
+//     "target": "ES5",
+//     "experimentalDecorators": true,
+//     "types": [
+//       "reflect-metadata"
+//     ]
+//   },
+//   "exclude": [
+//     "test.ts",
+//     "**/*.spec.ts"
+//   ]
+// }
+{
+    "compilerOptions": {
+        "module": "umd", // 生成符合CommonJS规范的JavaScript模块
+        "moduleResolution": "node", // 使用Node.js的模块解析方式
+        "target": "es2015", // 目标JavaScript版本
+        "sourceMap": true, // 生成.js.map映射文件
+        "skipLibCheck": true, // 不检查第三方包中的声明文件中的语法
+        "experimentalDecorators": true, // 使用实验性功能
+        "emitDecoratorMetadata": true, // 生成装饰器元数据
+    }
+}
+
